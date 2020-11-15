@@ -1,0 +1,235 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*the button to change mode*/
+#mode {
+    float: right;
+    margin: 2%;
+    font-family: SourceCodeBo;
+    font-size: 10px;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1em;
+    cursor: pointer;
+}
+#mode:hover {
+    color: white;
+    background-color: gray;
+}
+
+html, body {
+    color:black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+.mode-day {
+    color:black;
+    background-color: white;
+    
+  }
+.mode-night {
+    --color-primary: #17ed90;
+    --color-secondary: #243133;
+    --color-accent: #12cdea;
+    --font-color: #ffffff;
+  }
+
+@font-face {
+    font-family: AntonReg;
+    src: url("./fonts/Anton-Regular.ttf");
+}
+@font-face {
+    font-family: SourceCodeBo;
+    src: url("./fonts/SourceCodePro-Bold.ttf");
+}
+@font-face {
+    font-family: ShareTechMono;
+    src: url("./fonts/ShareTechMono-Regular.ttf")
+}
+
+
+body {
+    font-size: 35px;
+    font-family: AntonReg;
+}
+
+
+.portofolio {
+    color: black;
+    background: white;
+}
+
+nav{
+    min-width: 10vh;
+    font-family: SouceCodeBo;
+    font-size: 10px;
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.button-container {
+    font-family: SourceCodeBo;
+    font-size: 13px;
+    outline: 2px gray solid; 
+}
+
+#back-button {
+    float: right;
+    margin-right: 2%;
+    font-family: SourceCodeBo;
+    font-size: 13px;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1em;
+    cursor: pointer;
+}
+h5:hover {
+    background-color: black;
+    color: white;
+}
+
+button {
+    font-family: SourceCodeBo;
+    font-size: 13px;
+    /*outline: 2px gray solid;*/
+    cursor: pointer;
+}
+
+
+
+h3 {
+    align-items: center;
+    min-height: 10px;
+    font-family: ShareTechMono;
+    font-size: 40px;
+    padding: 70px;
+    /*padding: 70px 400px;*/
+    text-align: center;
+    color: white;
+}
+h3 span {
+    background-color: black;
+}
+
+
+.hero{
+    background-image: url(./IMG/day-pizza.png);
+    background-size: 600px 500px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 500px;
+    align-self: center;
+    justify-self: center;
+}
+
+img.picture {
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+h1.copyright {
+     text-align: center;
+     font-size: 10px;
+     font-family: SourceCodeBo;
+     color=black;
+ }
+
+
+
+.portofolio {
+    animation: transitionIn 1s;
+}
+
+ @keyframes transitionIn {
+     from {
+         opacity: 0;
+         transition: rotateX(-10px);
+     }
+
+     to {
+        opacity: 1;
+        transition: rotateX(0);
+     }
+ }
+
+ #loader {
+    position: fixed;
+    left: 42%;
+    top: 35%;
+     border: 1.6rem solid black;
+     border-radius: 50%;
+     border-top: 1.6rem solid white;
+     width: 12rem;
+     height: 12rem;
+     animation: spin 2s linear infinite;
+ }
+
+ @keyframes spin{
+     0% {transform: rotate(0deg);}
+     100% {transform: rotate(360deg);}
+ }
+
+ .typewriter h4 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid gray; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    /*margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: blue; }
+  }
+
+h4 {
+    font-family: ShareTechMono;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+}
+
+.grid-container {
+    align-items: center;
+    display: grid;
+    grid-gap: 50px 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 55px;
+  }
+
+.icon {
+    background-color: rgba(255, 255, 255, 0.8);
+    /*padding: 0px;*/
+    font-size: 30px;
+}
+
+#recipe-intro {
+    font-family: SourceCodeBo;
+    font-size: 10px;
+}
+
+img {
+    cursor: pointer;
+}
