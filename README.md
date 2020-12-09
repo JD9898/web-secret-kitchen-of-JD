@@ -2,5 +2,4 @@
 
 Hello;) Thank you for the interest in JD's secret kitchen. 
 
-A video demonstration of the webpage can be found at: 
-https://drive.google.com/file/d/1-6Jz4gJJyQ0wr9LSrqZsF7LgsUjSIybD/view?usp=sharing
+The actual website is now in place! check it out: http://www.jdskitch3n.co.uk
